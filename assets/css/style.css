@@ -1,0 +1,58 @@
+/* color scheme sourced from http://colorhunt.co */
+:root {
+  --navy: #11324D;
+  --powder: #96d0e7;
+  --steel: #92959c;
+  --olive: #C1CFC0;
+  --beige: #E7E0C9;
+}
+
+/* set content highlight color and background */
+::selection {
+  background-color: var(--powder);
+  color: var(--navy);
+}
+
+body{
+  background-color: var(--navy);
+  color: var(--beige);
+}
+
+header{
+  color: var(--olive);
+  margin: 25px;
+  display: flex;
+  justify-content: space-between;
+  width:min-content
+}
+
+nav{
+  text-align: right;
+  font-size: 25px;
+}
+
+/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+@media screen and (min-width: 768px) {
+  /* on tablets, set columns to only be 50% of the width and not grow */
+  .card-column {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  /* select the last child to grow to full width if it has navy to grow */
+  .card-column:last-child {
+    flex-grow: 1;
+  }
+}
+
+/* media query for larger screens */
+@media screen and (min-width: 992px) {
+  header {
+    width: 97%;
+  }
+
+  .card-column {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+  }
+}
