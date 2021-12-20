@@ -12,11 +12,11 @@
   background-color: var(--powder);
   color: var(--navy);
 }
-
+/* font family sourced from https://fonts.google.com/specimen/Abril+Fatface#standard-styles */
 body{
   background-color: var(--navy);
   color: var(--beige);
-  font-family: 'Abril Fatface', sans-serif, cursive;
+  font-family: 'Abril Fatface', serif, cursive;
 }
 
 header{
@@ -43,6 +43,18 @@ nav{
 p {
 font-style: italic;
 margin: none;
+}
+
+.container{
+  margin-top: 2.5%;
+}
+
+.col{
+  border-right: 5px solid var(--steel);
+  max-width: 15%;
+}
+.col-md-auto{
+  max-width: 85%;
 }
 
 
