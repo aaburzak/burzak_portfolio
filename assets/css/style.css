@@ -1,4 +1,4 @@
-/* color scheme sourced from http://colorhunt.co */
+/* color scheme sourced from https://colorhunt.co/palette/e7e0c9c1cfc06b7aa111324d */
 :root {
   --navy: #11324D;
   --powder: #96d0e7;
@@ -21,9 +21,11 @@ body{
 header{
   color: var(--olive);
   margin: 25px;
+  margin-bottom: 0px;
   display: flex;
   justify-content: space-between;
-  width:min-content
+  flex-wrap: wrap;
+  padding: 15px;
 }
 
 nav{
@@ -31,28 +33,25 @@ nav{
   font-size: 25px;
 }
 
-/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
-@media screen and (min-width: 768px) {
-  /* on tablets, set columns to only be 50% of the width and not grow */
-  .card-column {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-
-  /* select the last child to grow to full width if it has navy to grow */
-  .card-column:last-child {
-    flex-grow: 1;
-  }
+p {
+font-style: italic;
+margin-left: 40px;
 }
 
-/* media query for larger screens */
-@media screen and (min-width: 992px) {
-  header {
-    width: 97%;
-  }
+/* breakpoints sourced from https://getbootstrap.com/docs/5.1/layout/breakpoints/ */
 
-  .card-column {
-    flex: 0 0 33.333%;
-    max-width: 33.333%;
+@include media-breakpoint-up(sm) { ... }
+@include media-breakpoint-up(md) { ... }
+@include media-breakpoint-up(lg) { ... }
+@include media-breakpoint-up(xl) { ... }
+@include media-breakpoint-up(xxl) { ... }
+
+
+.custom-class {
+  display: none;
+}
+@include media-breakpoint-up(sm) {
+  .custom-class {
+    display: block;
   }
 }
