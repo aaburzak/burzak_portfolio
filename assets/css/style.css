@@ -16,6 +16,7 @@
 body{
   background-color: var(--navy);
   color: var(--beige);
+  font-family: 'Abril Fatface', sans-serif, cursive;
 }
 
 header{
@@ -32,11 +33,19 @@ nav{
   text-align: right;
   font-size: 25px;
 }
+.container-fluid{
+  background-image: url(https://images.unsplash.com/photo-1600627225432-82de96999068?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  padding-left: 35px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
 
 p {
 font-style: italic;
-margin-left: 40px;
+margin: none;
 }
+
+
 
 /* breakpoints sourced from https://getbootstrap.com/docs/5.1/layout/breakpoints/ */
 
