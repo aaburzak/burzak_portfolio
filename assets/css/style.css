@@ -14,7 +14,7 @@
 }
 /* font family sourced from https://fonts.google.com/specimen/Abril+Fatface#standard-styles */
 body{
-  background-color: var(--navy);
+  background: var(--navy);
   color: var(--beige);
   font-family: 'Abril Fatface', serif, cursive;
 }
@@ -59,10 +59,17 @@ h2{
   padding-right: 2%;
 }
 .col-md-auto{
-  padding-left: 2%;
+  margin-left: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   max-width: 85%;
+  background-image: linear-gradient(
+    rgba(130, 21, 177, 0.3) 0%,
+    rgba(10, 33, 44, 0.6) 100%
+  );
 }
-
 
 
 /* breakpoints sourced from https://getbootstrap.com/docs/5.1/layout/breakpoints/ */
