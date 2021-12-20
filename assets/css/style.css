@@ -56,9 +56,10 @@ margin: none;
 }
 h2{
   text-align: right;
-  padding-right: 5px;
+  padding-right: 2%;
 }
 .col-md-auto{
+  padding-left: 2%;
   max-width: 85%;
 }
 
