@@ -96,7 +96,6 @@ h2{
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
   width: 2000px;
@@ -116,7 +115,6 @@ h2{
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
   margin-top: 5%;
@@ -130,7 +128,7 @@ h2{
 }
 
 .box-one{
-  background-image: url(https://spaceplace.nasa.gov/nebula/en/nebula1.en.jpg);
+  background-image: url(https://thumbor.forbes.com/thumbor/711x527/https://blogs-images.forbes.com/startswithabang/files/2017/05/Crab_composite-1200x891.jpg?width=960);
 }
 
 .box-two{
