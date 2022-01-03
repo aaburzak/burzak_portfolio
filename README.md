@@ -6,8 +6,6 @@ This Portfolio has been designed per the following acceptance criteria:
 
 ## Acceptance Criteria
 
-Here are the critical requirements necessary to develop a portfolio that satisfies a typical hiring manager’s needs:
-
 ```
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
