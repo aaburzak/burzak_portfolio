@@ -17,6 +17,7 @@ body{
   background: var(--navy);
   color: var(--beige);
   font-family: 'Abril Fatface', serif, cursive;
+  display: flexbox;
 }
 
 header{
@@ -69,8 +70,8 @@ margin-left: 1%;
 }
 .col{
   border-right: 5px solid var(--steel);
-  max-width: 15%;
 }
+
 h2{
   text-align: right;
   padding-right: 2%;
@@ -148,27 +149,50 @@ h2{
 .box-four{
   background-image: url(https://www.cnet.com/a/img/7RrLvUiCCp8VJ7LBYw0pb8jIrsc=/940x0/2015/08/07/4d6175ad-a4dd-459e-805d-c5bc5f73337f/lagoonnebula.jpg);
 }
-
-
-
-
-
-/* breakpoints sourced from https://getbootstrap.com/docs/5.1/layout/breakpoints/ 
-
-@include media-breakpoint-up(sm) { ... }
-@include media-breakpoint-up(md) { ... }
-@include media-breakpoint-up(lg) { ... }
-@include media-breakpoint-up(xl) { ... }
-@include media-breakpoint-up(xxl) { ... }
-
-
-.custom-class {
-  display: none;
+#contact{
+  text-align: left;
+  padding-right: 0px;
 }
-@include media-breakpoint-up(sm) {
-  .custom-class {
-    display: block;
+.bot_nav{
+  padding-bottom: 1%;
+  justify-content: space-around;
+  align-content: center;
+}
+h4{
+  justify-content: center;
+
+}
+
+footer{
+  color: var(--olive);
+  margin: 25px;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+h4{
+  margin-right: 5%;
+  font-size: 30px;
+}
+#contact{
+  font-size: 25px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  body{
+    display: flexbox;
+    justify-content: flex-start;
+    align-content: flex-start;
+  }
+  .col{
+    border: none;
+  }
+  h2{
+    text-align: left;
   }
 }
 
-*/
