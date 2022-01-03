@@ -1,4 +1,7 @@
 # burzak_portfolio
+My Portfolio of work
+deployed link: https://aaburzak.github.io/burzak_portfolio/
+
 This Portfolio has been designed per the following acceptance criteria:
 
 ## Acceptance Criteria
