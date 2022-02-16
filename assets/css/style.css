@@ -185,8 +185,8 @@ h4{
 @media screen and (max-width: 1200px) {
   body{
     display: flexbox;
-    justify-content: flex-start;
-    align-content: flex-start;
+    justify-content: center;
+    align-content: center;
   }
   .col{
     border: none;
